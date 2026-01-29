@@ -193,3 +193,171 @@ html, body {
     text-align: center;
 }
 
+/* ===============================
+   RESPONSIVIDADE
+================================ */
+
+/* ---------- TABLET ---------- */
+@media (max-width: 1024px) {
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 80px 20px;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .header .titulo p {
+        width: 100%;
+    }
+
+    .header .titulo h1 {
+        font-size: 52px;
+    }
+
+    .header .titulo h2 {
+        font-size: 34px;
+    }
+
+    .imagem,
+    .imagem img {
+        width: 300px;
+        height: 420px;
+    }
+
+    .habilidades {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .habilidades_ {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card_ {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre {
+        margin: 20px;
+    }
+
+    .sobre_ {
+        width: 100%;
+    }
+
+    .rodape {
+        flex-direction: column;
+        height: auto;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .rodape_ .serv {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 768px) {
+
+    .header .titulo h1 {
+        font-size: 42px;
+    }
+
+    .header .titulo h2 {
+        font-size: 28px;
+    }
+
+    .header .titulo p {
+        font-size: 18px;
+    }
+
+    .curriculo {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .habilidades h1 {
+        font-size: 36px;
+    }
+
+    .habilidades_card {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .habilidades_card p {
+        font-size: 20px;
+    }
+
+    .card {
+        gap: 30px;
+    }
+
+    .card_ {
+        font-size: 20px;
+    }
+
+    .card_ .imagem_2 img {
+        width: 200px;
+        height: auto;
+    }
+
+    .sobre_ p {
+        font-size: 18px;
+    }
+
+    .rodape {
+        font-size: 20px;
+        gap: 30px;
+    }
+}
+
+/* ---------- MOBILE PEQUENO ---------- */
+@media (max-width: 480px) {
+
+    .header {
+        padding: 60px 15px;
+    }
+
+    .header .titulo h1 {
+        font-size: 34px;
+    }
+
+    .header .titulo h2 {
+        font-size: 24px;
+    }
+
+    .header .titulo p {
+        font-size: 16px;
+    }
+
+    .imagem,
+    .imagem img {
+        width: 260px;
+        height: 380px;
+    }
+
+    .habilidades h1 {
+        font-size: 30px;
+    }
+
+    .card_ {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .rodape {
+        font-size: 18px;
+    }
+}
+
